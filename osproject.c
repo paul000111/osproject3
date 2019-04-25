@@ -61,8 +61,7 @@ void main()
   for(i=1;i<n;i++)
   {
    wt[i]=wt[i-1]+pt[i-1];
-   printf("%d\n",wt[i]);
-   //totwt=totwt+wt[i];
+   //printf("%d\n",wt[i]);
   }
   printf("process-name\t process_time\t\t priority\t waiting-time\n");
   for(i=0;i<n;i++)  
